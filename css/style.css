@@ -1,0 +1,175 @@
+
+#header{
+    color:white;
+    font-size:250%;
+    font-weight:bold;
+    background-color:#8A2102;
+    padding:0em;
+    font-family:"Brush Script MT";
+}
+
+body{
+	background-image: url("images-2/hong.jpg");background-repeat:repeat;
+}
+
+	        /*This template css file was created by Xiaoxuan Ruan on 3/11/2020.*/
+
+a.home:hover{
+	background-image: url("images-2/homehover.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:1.5em;
+}
+a.work:hover{
+	background-image: url("images-2/workshover.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:1.5em;
+}
+a.about:hover{
+	background-image: url("images-2/abouthover.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:1.5em;
+}
+a.contact:hover{
+	background-image: url("images-2/contacthover.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:1.5em;
+}
+
+img.small{
+	width:35px;height:30px;
+}
+
+img.shouye{
+	height:40px;padding-top:0.5em;
+}
+
+.R{
+	background-image: url(images-2/resize.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	background-size:cover;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.R-T{
+      font-family:"Avant Garde", Avantgarde, "Century Gothic", 
+	  CenturyGothic, AppleGothic, sans-serif;
+	  text-shadow:4px 4px #AFA193;
+	  font-style:italic;
+	  font-style:bold;
+	  font-size:400%;
+	  color:white;
+      line-height:2em;
+      padding:0.2em;
+}
+
+
+
+
+
+#zhong{
+	font-family:"times";font-style:normal;font-size:30px;
+	text-shadow:none;
+}
+
+.KKK{
+	background-repeat:no-repeat;
+	padding-bottom: 100px;
+}
+
+.KKK img{
+	transition: transform 0.4s;
+}
+
+.KKK img:hover{
+	transform:scale(1.8);
+}
+
+p{
+	padding:1em;
+}
+
+
+/*------------------------------WORKS-------------------------------------------------*/
+
+.row {
+  display:flexbox; 
+  display:flex;
+  flex-wrap: wrap; 
+  padding:4px;
+  margin-left:2.5%;
+}
+
+.column {
+  flex: 25%;
+  margin-left:20px;
+  margin-right:20px; 
+  max-width: 20%;
+  padding:10px;
+  text-align: center;
+  color:#D7A15D;
+  font-family:"Brush Script MT";
+  font-size:40px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.column img{
+	transition: transform 0.4s;
+}
+
+.column img:hover{
+	transform:scale(1.8);
+}
+
+
+/*-----------------------------------------About---------------------------------------------*/
+
+
+
+.aboutme{
+position: left;
+
+}
+
+.skill{
+	color:orange;
+}
+
+h3{
+	color:#BFA788;font-weight:bold;font-family:times;
+}
+
+h5{
+	color:#D05342;font-family:times;
+}
+
+
+
+/*-----------------------------contact--------------------------------------*/
+
+.TTT{
+	color:#BFA788;
+	height:100%;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:25px;
+}
+
+.con{
+	width:50px;
+}
